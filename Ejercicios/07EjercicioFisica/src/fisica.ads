@@ -5,7 +5,9 @@ package Fisica is
    type Tiempo is new Float;
    type Aceleracion is new Float;
    
-   function Posicion_Final
-     (Distancia, Velocidad, Tiempo, Aceleracion) return Distancia;
+   function Posicion_Final(Pos_init : in Distancia;
+                           Vel_init : in Velocidad;
+                           T : in Tiempo;
+                           A : in Aceleracion) return Distancia;
 
 end Fisica;

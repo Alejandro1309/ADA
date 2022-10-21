@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Curso\IndraOctubre\07Registros\registros.gpr
+20221021080730 fefeb67c800548c105b8b3b6d4d7c304
+[BOUND OBJECT FILES]
+C:\Curso\IndraOctubre\07Registros\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Curso\IndraOctubre\07Registros\obj\
+-LC:\Curso\IndraOctubre\07Registros\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

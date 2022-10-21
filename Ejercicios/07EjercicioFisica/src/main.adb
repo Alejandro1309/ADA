@@ -1,19 +1,29 @@
-with Fisica; use Fisica;
-with Ada.Text_IO; use Ada.Text_IO;
+with fisica; use fisica;
+with Text_IO; use Text_IO;
+with Ada.Float_Text_IO; use Ada.Float_Text_IO;
+
 
 procedure Main is
+   -- Crear una librería que se llame física
+   -- Definir los siguientes tipos de datos
+   --    Distancia
+   --    Velocidad
+   --    Tiempo
+   --    Aceleración
+   -- Crear un método para calcular la posición de un coche después de x tiempo
+   --               ( Xf = X0 + Vinicial * t + 1/2 * a * t² )
+   --
+   -- Function Posicion_Final(Distancia, Velocidad_Inicial, Tiempo_Transcurrido) returns Distancia
+
+  Pos_Final : Distancia;
+   Xinit : Distancia := 0.0;
+   Vel : Velocidad := 50.0;
+   Tiem : Tiempo := 100.0;
+   Acel : Aceleracion := 5.5;
 
 begin
-   -- Crear una libreria que se llama Fisica
-   -- Definir los siguientes tipos de datos en esa libreria
-   -- Distancia
-   -- Velocidad
-   -- Tiempo
-   -- Aceleracion
-   -- Agregar un metodo que calcula la posicion de un coche despues de x tiempo
-   -- VF = X0 + VInicial * t + 1/2 * a * t²
-   -- funcion Posicion_Final(Distancia, Velocidad_Inicial, Tiempo_Transcurrido) return Distancia...
-   -- En el main probarla
+   Pos_Final := Posicion_Final(Xinit, Vel, Tiem, Acel);
+   Put_Line("La posicion final es" & Pos_Final'Image);
 
    null;
 end Main;
