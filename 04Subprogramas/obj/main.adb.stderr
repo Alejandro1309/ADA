@@ -1,0 +1,1 @@
+main.adb:60:07: warning: variable "Resultado" is never read and never assigned [-gnatwv]

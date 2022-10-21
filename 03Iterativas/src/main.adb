@@ -7,8 +7,13 @@ procedure Main is
 
    -- Sumatoria : Integer := 0;
    -- Entrada_Datos : Integer;
-
+   N : Integer;
 begin
+   -- Manejo de excepciones
+   Get(N);
+exception
+      when Data_Error => Put_Line("Error");
+
    -- -- Calcule la sumatoria de valores hasta que el usuario ingrese un 0
    -- Put_Line("Ingrese valores. Un 0 finaliza la carga");
    -- Put_Line("Se calcula la sumatoria");
@@ -144,16 +149,16 @@ begin
    --  end;
 
    -- Generar numeros enteros al azar entre 1 y 10
-   declare
-      G : Generator;
-      Numeros_Al_Azar : Integer;
-   begin
-      Reset(G);
-      for I in 1..20 loop
-         -- Numeros_Al_Azar := Integer(Random(G) * 10.0) + 1; -- Se puede escribir de las dos maneras
-         Numeros_Al_Azar := Integer((Random(G) * 9.0) + 1.0); -- 9.0 para que de numeros del 0-9 y se le añade 1 para que sea de 1-10
-         Put_Line(Numeros_Al_Azar'Image);
-      end loop;
-   end;
+   --  declare
+   --     G : Generator;
+   --     Numeros_Al_Azar : Integer;
+   --  begin
+   --     Reset(G);
+   --     for I in 1..20 loop
+   --        -- Numeros_Al_Azar := Integer(Random(G) * 10.0) + 1; -- Se puede escribir de las dos maneras
+   --        Numeros_Al_Azar := Integer((Random(G) * 9.0) + 1.0); -- 9.0 para que de numeros del 0-9 y se le añade 1 para que sea de 1-10
+   --        Put_Line(Numeros_Al_Azar'Image);
+   --     end loop;
+   --  end;
    null;
 end Main;

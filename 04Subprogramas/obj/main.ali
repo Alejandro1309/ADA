@@ -1,0 +1,104 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		f3bf05d9 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-flteio.ads		20210520051128 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D main.adb		20221018085958 bcc19714 main%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [main standard 4 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 1r23 2r6 2r29
+X 3 a-flteio.ads
+20K13*Float_Text_IO[11|46] 15|2w10 2r33
+X 10 a-textio.ads
+58K13*Text_IO 725e16 15|1w10 1r27
+87I12*Field{integer}
+506U14*Put_Line 15|38s7 145s7 146s7
+X 11 a-tiflio.ads
+82U14*Put 15|37s7[3|20]
+84i7 Fore{10|87I12} 15|37r28[3|20]
+86i7 Exp{10|87I12} 15|37r18[3|20]
+X 15 main.adb
+4U11*Main 4b11 150l5 150t9
+6V13 Sumar{integer} 6b13 6>20 6>34 10t7
+6i20 N1{integer} 9r14
+6i34 N2{integer} 9r19
+12V13 Exponente{float} 12b13 12>24 12>40 32l8 32t17
+12i24 Base{integer} 19r23 22r26 24r41
+12i40 Exp{integer} 15r10 18r10 23r19 27r10
+13f7 Resultado{float} 22m7 24m10 24r23 28r23 31r14
+23i11 I{integer}
+34U14 Show_Float 34b14 34>25 39l8 39t18 41r44
+34f25 Value{float} 37r11
+41U14 Put_Line=41:44
+41f23 Value{float}
+43U14 Swap_Integers 43b14 43=29 43=54 49l8 49t21
+43i29 Param1{integer} 46r14 47m7
+43i54 Param2{integer} 47r17 48m7
+44i7 Aux{integer} 46m7 48r17
+51V13 Resta{integer} 51b13 51>20 51>42 51<62 57t7
+51i20 Izquierda{integer} 54r20
+51i42 Derecha{integer} 54r32
+51b62 Negativo{boolean} 55m7
+52i7 Resultado{integer} 54m7 55r20 56r14
+59V13 Resta{integer} 59b13 59>20 59>42 63t7
+59i20 Izquierda{integer} 62r14
+59i42 Derecha{integer} 62r26
+60i7 Resultado{integer}
+65U14 Mayor_Menor 65b14 65>26 65>47 65<68 65<89 69l8 69t19 142s7
+65i26 Valor1{integer} 67r20 67r42 68r20 68r42
+65i47 Valor2{integer} 67r29 67r54 68r29 68r54
+65i68 Mayor{integer} 67m7 143r19
+65i89 Menor{integer} 68m7 144r19
+139i7 Supuesto_mayor{integer} 142r35 143m28 145r27
+140i7 Supuesto_menor{integer} 142r19 144m28 146r27
+
