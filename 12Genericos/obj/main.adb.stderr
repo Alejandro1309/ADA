@@ -1,0 +1,2 @@
+main.adb:21:04: warning: variable "Velocidad_Inicial" is never read and never assigned [-gnatwv]
+main.adb:22:04: warning: variable "Velocidad_Final" is never read and never assigned [-gnatwv]

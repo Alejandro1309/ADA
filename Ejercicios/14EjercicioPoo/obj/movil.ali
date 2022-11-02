@@ -1,0 +1,103 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DISPATCHING_CALLS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U movil%b		movil.adb		71c3f562 OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z system.concat_9%s	s-conca9.adb		s-conca9.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U movil%s		movil.ads		94680fed EE OO PF PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-charac.ads		20210520051128 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210520051128 66457d31 ada.characters.latin_1%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-strmap.ads		20210520051130 5a88892a ada.strings.maps%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-strunb.ads		20210520051130 03325227 ada.strings.unbounded%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D movil.ads		20221102095622 975a5dca movil%s
+D movil.adb		20221102095622 e699a8a8 movil%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-atocou.ads		20210520051132 b45c2d8d system.atomic_counters%s
+D s-conca9.ads		20210520051132 dc4a3424 system.concat_9%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20210520051134 7bdda3fa system.stream_attributes%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [create movil 16 13 none]
+G c Z s b [to_string movil 18 13 none]
+G c Z s s [clase_cocheDA movil 22 9 none]
+G c Z s s [clase_cocheDF movil 22 9 none]
+G c Z s s [clase_cocheIP movil 22 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 1r33
+X 7 a-string.ads
+16K13*Strings 35e16 15|1r10 1r37
+X 10 a-strunb.ads
+83K21*Unbounded 765e26 15|1w18 1r45
+X 15 movil.ads
+3K9*Movil 22E9 29l5 29e10 16|1b14 23l5 23t10
+6I9*Posicion_X<integer> 23r19
+7I9*Posicion_Y<integer> 24r19
+8I9*Velocidad_X<integer> 25r20
+9I9*Velocidad_Y<integer> 26r20
+11R9*Clase_Coche 13r25 18p13 18r30 22c9 27e14 16|6r21 15r30
+13P9*Coche(11R9) 16r49 16|3r49 4r16
+16V13*Create{13P9} 16>20 16|3b13 13l8 13t14
+16i20 Posicion_X{integer} 16|3b20
+18V13*To_String{string} 18>23 16|15b13 21l8 21t17
+18r23 this{11R9} 16|15b23 17r29 18r15 19r9 20r9
+23i7*PosicionX{6I9} 16|7m14 17r34
+24i7*PosicionY{7I9} 16|8m14 18r20
+25i7*VelocidadX{8I9} 16|9m14 19r14
+26i7*VelocidadY{9I9} 16|10m14 20r14
+X 16 movil.adb
+4p7 Result{15|13P9} 6m7 7r7 8r7 9r7 10r7 12r14
+

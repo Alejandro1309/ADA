@@ -14,7 +14,7 @@ procedure Main is
 begin
    Put_Line("Ingrese el numero de personas que quiera introducir");
    declare
-      Numero_Personas : Integer:= Get_Integer;
+      Numero_Personas : Integer := Get_Integer;
       Persona_Ingresar : Array_Personas(1..Numero_Personas);
    begin
       for i in Numero_Personas loop

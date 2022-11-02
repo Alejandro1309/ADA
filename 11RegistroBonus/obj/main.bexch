@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Curso\IndraOctubre\11RegistroBonus\registros.gpr
+20221027061958 cf30d519c0dd359b3b0ddc7899c502f1
+[BOUND OBJECT FILES]
+C:\Curso\IndraOctubre\11RegistroBonus\obj\io.o
+C:\Curso\IndraOctubre\11RegistroBonus\obj\Juego.o
+C:\Curso\IndraOctubre\11RegistroBonus\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Curso\IndraOctubre\11RegistroBonus\obj\
+-LC:\Curso\IndraOctubre\11RegistroBonus\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

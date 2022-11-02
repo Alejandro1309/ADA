@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Curso\IndraOctubre\13Punteros\punteros.gpr
+20221031081358 bc2cbf9b536b47fcba5afbf3ead6e248
+[BOUND OBJECT FILES]
+C:\Curso\IndraOctubre\13Punteros\obj\io.o
+C:\Curso\IndraOctubre\13Punteros\obj\io_enums.o
+C:\Curso\IndraOctubre\13Punteros\obj\juego.o
+C:\Curso\IndraOctubre\13Punteros\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Curso\IndraOctubre\13Punteros\obj\
+-LC:\Curso\IndraOctubre\13Punteros\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
