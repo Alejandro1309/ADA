@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Locations >
   <Project>
-    <vfs_file />
+    <vfs_file>C:\Curso\IndraOctubre\Ejercicios\14EjercicioPoo\ejercicio.gpr</vfs_file>
     <file_marker column=" 1" line=" 1" >
       <vfs_project />
       <vfs_file>C:\Curso\IndraOctubre\14Objetos\src\main.adb</vfs_file>
@@ -102,13 +102,29 @@
       <vfs_project>C:\Curso\IndraOctubre\Ejercicios\14EjercicioPoo\ejercicio.gpr</vfs_project>
       <vfs_file>C:\Curso\IndraOctubre\Ejercicios\14EjercicioPoo\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 42" line=" 12" >
+    <file_marker column=" 42" line=" 15" >
       <vfs_project>C:\Curso\IndraOctubre\Ejercicios\14EjercicioPoo\ejercicio.gpr</vfs_project>
       <vfs_file>C:\Curso\IndraOctubre\Ejercicios\14EjercicioPoo\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 4" line=" 3" >
+    <file_marker column=" 4" line=" 3" >
       <vfs_project>C:\Curso\IndraOctubre\Ejercicios\14EjercicioPoo\ejercicio.gpr</vfs_project>
       <vfs_file>C:\Curso\IndraOctubre\Ejercicios\14EjercicioPoo\src\movil.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 3" >
+      <vfs_project>C:\Curso\IndraOctubre\Ejercicios\14EjercicioPoo\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Curso\IndraOctubre\Ejercicios\14EjercicioPoo\src\movil.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 55" line=" 16" >
+      <vfs_project>C:\Curso\IndraOctubre\Ejercicios\14EjercicioPoo\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Curso\IndraOctubre\Ejercicios\14EjercicioPoo\src\movil.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 3" >
+      <vfs_project>C:\Curso\IndraOctubre\Ejercicios\14EjercicioPoo\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Curso\IndraOctubre\Ejercicios\14EjercicioPoo\src\movil.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 20" line=" 16" >
+      <vfs_project>C:\Curso\IndraOctubre\Ejercicios\14EjercicioPoo\ejercicio.gpr</vfs_project>
+      <vfs_file>C:\Curso\IndraOctubre\Ejercicios\14EjercicioPoo\src\movil.ads</vfs_file>
     </file_marker>
   </Project>
 </Locations>

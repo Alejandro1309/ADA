@@ -1,0 +1,2 @@
+main.adb:9:04: warning: variable "Un_Animal" is never read and never assigned [-gnatwv]
+main.adb:36:07: warning: variable "Un_Animal" is never read and never assigned [-gnatwv]

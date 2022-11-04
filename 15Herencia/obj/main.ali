@@ -1,0 +1,120 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U main%b		main.adb		20811a4b NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W io%s			io.adb			io.ali
+W selva%s		selva.adb		selva.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-charac.ads		20210520051128 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210520051128 66457d31 ada.characters.latin_1%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210520051130 84bea7a3 ada.numerics%s
+D a-nuflra.ads		20210520051130 4056ab7a ada.numerics.float_random%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-strmap.ads		20210520051130 5a88892a ada.strings.maps%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-strunb.ads		20210520051130 03325227 ada.strings.unbounded%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210520051130 c3a8ac65 ada.unchecked_deallocation%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D io.ads		20221027082622 a413fe42 io%s
+D main.adb		20221103112430 32be1d93 main%b
+D selva.ads		20221103111752 5bbcd5aa selva%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-atocou.ads		20210520051132 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-finmas.ads		20210520051132 1ab4dba8 system.finalization_masters%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-pooglo.ads		20210520051134 ede33ef8 system.pool_global%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-rannum.ads		20210520051134 c3978523 system.random_numbers%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210520051134 e9fa2dd8 system.storage_pools%s
+D s-stratt.ads		20210520051134 7bdda3fa system.stream_attributes%s
+D s-string.ads		20210520051134 8fe54fb7 system.strings%s
+D s-ststop.ads		20210520051134 5fbf1b38 system.strings.stream_ops%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [main standard 7 11 none]
+G r c none [main standard 7 11 none] [get_integer io 14 13 none]
+G r c none [main standard 7 11 none] [create_leon selva 21 13 none]
+G r c none [main standard 7 11 none] [create_jirafa selva 25 13 none]
+G r c none [main standard 7 11 none] [create_puma selva 29 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 22|2r6 2r23 3r6 3r33 5r6 5r37
+X 7 a-numeri.ads
+16K13*Numerics 35e17 22|5r10 5r41
+X 8 a-nuflra.ads
+41K22*Float_Random 74e30 22|5w19 5r50
+47R9*Generator<34|65R9> 22|34r11
+49F12*Uniformly_Distributed{float} 22|35r14
+51V13*Random{49F12}<34|73p13> 22|42s18
+53U14*Reset<34|103p14> 22|38s7
+X 10 a-string.ads
+16K13*Strings 35e16 22|3r10 3r37
+X 13 a-strunb.ads
+83K21*Unbounded 765e26 22|3w18 3r45
+X 16 a-textio.ads
+58K13*Text_IO 725e16 22|2w10 2r27
+506U14*Put_Line 22|30s4 55s7
+X 21 io.ads
+1K9*IO 18e7 22|4w6 4r14
+14V13*Get_Integer{integer} 22|31s20
+X 22 main.adb
+7U11*Main 7b11 63l5 63t9
+9p4 Un_Animal{23|8P9}
+12i4 Num_Animales{integer} 31m4 33r36
+13A9 Array_Animales(23|8P9)<integer> 33r18
+33a7 Animales{13A9} 39r16 47m13 49m13 51m13 58r23
+34r7 G{8|47R9} 38r13 42r25
+35f7 Azar{8|49F12} 42m10 46r13 48r16
+36p7 Un_Animal{23|8P9}
+39i11 i{integer} 47r22 49r22 51r22
+58p11 Criatura=58:23{23|8P9} 59r10
+X 23 selva.ads
+4K9*Selva 22|1w6 1r17 23|54e10
+8P9*Animal(7R9) 22|9r16 13r56 36r19
+17x15*Hablar 22|59R19
+21V13*Create_Leon{8P9} 22|47s26
+25V13*Create_Jirafa{8P9} 22|49s26
+29V13*Create_Puma{8P9} 22|51s26
+
